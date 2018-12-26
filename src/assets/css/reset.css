@@ -1,0 +1,16 @@
+*{box-sizing: border-box;}
+html,body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,input,button,textarea,select{margin:0;padding:0;}
+a,button,input,textarea{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+input,select{-webkit-appearance:none;appearance: none;}
+html,body{height: 100%;}
+a{text-decoration:none;}
+ul{list-style: none;}
+input,button{outline:none;border:none;background: transparent;}
+img{border: none;}
+.clearfix:after {
+    content: ""; 
+   	display: block;
+   	height: 0; 
+   	clear: both; 
+   	visibility: hidden;
+} 

@@ -1,0 +1,110 @@
+@media screen and (max-width: 1199px) {
+	#app{
+        min-width: 800px;
+    } 
+	.index-title{ // 头部
+    	div.el-row{
+     		margin-left: 80px;
+     		margin-right: 100px;
+      		.item_li{
+        		margin-right: 40px;
+      		}
+    	}
+    	div.el-breadcrumb, div.el-dropdown{
+      		right: 10px;
+    	}
+  	}
+	.index{ // 首页
+		div.banner-wrapper{
+			height: 432px;
+			.el-carousel__container{
+				height: 432px;
+				img{
+					height: 432px; 
+				}
+			}
+			.cover{
+				top: 55px;
+				left: 150px;
+			}
+		}
+		.course-adv{
+			height: 820px;
+			.course-list{
+				min-width: 768px;
+				width: auto;
+				li{
+					width: 380px;
+					height: 260px;
+					margin: 0 30px 30px 0;
+				}
+				.des{
+					width: 380px;
+					height: 260px;
+				}
+				.detail{
+					width: 380px;
+					height: 260px;
+					h5{
+						font-size: 20px;
+					}
+					h5:first-child{
+						margin-top: 14px;
+					}
+					h5:nth-child(2){
+						margin-bottom: 16px;
+					}
+					p{
+						font-size: 16px;
+						line-height: 20px;
+					}
+				}
+			}
+		}
+		.target-wrapper{
+			.target-list{
+				li{
+					margin-right: 50px;
+				}
+			}
+		}
+	}
+
+
+
+}
+
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1700px){
+	#app{
+        min-width: 1200px;
+    }
+	.index-title{
+    	div.el-row{
+      		margin: 40px 160px 0 230px;
+      		.item_li{
+        		margin-right: 80px;
+      		} 
+    	}
+    	div.el-breadcrumb, div.el-dropdown{
+      		right: 30px;
+    	}
+  	}
+  	.index{ // 首页
+		div.banner-wrapper{
+			height: 562px;
+			.el-carousel__container{
+				height: 562px;
+				img{
+					height: 562px; 
+				}
+			}
+			.cover{
+				top: 55px;
+				left: 210px;
+			}
+		}
+	}
+}
